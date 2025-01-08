@@ -14,114 +14,32 @@ body {
   min-height: 100vh;
   padding: 20px;
   flex-direction: column; 
-  overflow: auto; 
 }
 
 .container {
-  max-width: 100%; /* Ensure full width */
+  max-width: 100%;
   width: 100%;
   text-align: center;
   background-color: rgb(222, 16, 16);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box; 
 }
 
-  
-  h1 {
-    color: #f5ec3b;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    font-size: 2em;  
-  }
-  ul.pokemon-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .pokemon-button {
-    background-color: #f7e68e;
-    border: 2px solid #303030;
-    padding: 10px;
-    font-size: 1.1em;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    margin: 5px 0;
-    width: 100%;
-    text-align: left;
-  }
-  
-  .pokemon-button:hover {
-    background-color: #b9b93b;
-  }
-  
-  /* Responsiveness */
-  @media (max-width: 600px) {
-    .container {
-      padding: 15px;
-    }
-  
-    .pokemon-button {
-      font-size: 1em;
-    }
-  } 
+h1 {
+  color: #f5ec3b;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 2em;  
+}
 
-  .modal {
-    display: none;
-    position: fixed;
-    z-index:1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-
-  .modal-content {
-    background-color: rgb(232, 172, 172);
-    padding: 20px;
-    border-radius: 8px;
-    width: 80%;
-    max-width: 500px;
-    text-align: center;
-    position: relative;
-  } 
-
-  .modal img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  } 
-  .close-btn {
-    font-size: 30px;
-    font-weight: bold;
-    color: #000;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-  } 
-  .close-btn:hover {
-    color: red;
-  } 
-  @media (max-width: 600px) {
-    .modal-content {
-      padding: 15px;
-      width: 90%;
-    }
-  } 
+ul.pokemon-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
 
 
-  .modal-content .pokemon-image:hover { 
-transform: scale(1.8);
-cursor:pointer;
-z-index: 10;
-  }
+
