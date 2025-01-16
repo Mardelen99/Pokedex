@@ -1,0 +1,6 @@
+[submodule "ClONEJS"]
+	path = CLONEJS
+	url = https://github.com/Mardelen99/Pokedex.git
+[submodule "CLONEJS"]
+	path = CLONEJS
+	url = https://github.com/Mardelen99/Pokedex.git
